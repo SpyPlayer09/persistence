@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="interactions-persistence",
+    name="interactions-Persistence",
     version="2.2.3",
     description="Encode json in custom_ids.",
     long_description=long_description,
@@ -13,10 +13,10 @@ setup(
     author="Dworv",
     author_email="dwarvyt@gmail.com",
     license="GNU",
-    packages=["interactions.ext.persistence"],
+    packages=["interactions.ext.Persistence"],
     entry_points={
         "console_scripts": [
-            "persistence-generate-key=interactions.ext.persistence:keygen",
+            "Persistence-generate-key=interactions.ext.Persistence:keygen",
         ]
     },
     classifiers=[

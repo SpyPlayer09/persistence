@@ -108,12 +108,12 @@ class PersistentCustomID:
             custom_id (str): The custom_id to parse.
         """
         # if its a bot
-        if hasattr(cipher, "persistence"):
+        if hasattr(cipher, "Persistence"):
             cipher = cipher.persistence._cipher
         # if its a cipher object
         elif isinstance(cipher, Cipher):
             cipher = cipher
-        # if its a persistence object
+        # if its a Persistence object
         else:
             cipher = cipher._cipher
         

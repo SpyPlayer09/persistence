@@ -6,7 +6,7 @@ from ff3 import FF3Cipher
 
 HEX_ALPHABET = "0123456789ABCDEF"
 def generate_key():
-    """Generate a random key for persistence."""
+    """Generate a random key for Persistence."""
     return "".join(choice(HEX_ALPHABET) for _ in range(32))
 
 class Cipher:
